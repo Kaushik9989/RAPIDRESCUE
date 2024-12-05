@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c6e0f5;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar h1 {
+    font-size: 24px;
+    color: #333333;
+    margin: 0;
+    align-items: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #0056b3;
+  }
+  
+  /* Main Content */
+  .main-content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .main-content h2 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 100px;
+  }
+  
+  .domains {
+    display: flex;
+    justify-content: center;
+    gap: 240px;
+  }
+  
+  .domain-card {
+    background-color: #fff4cc;
+    border-radius: 20px;
+    width: 370px; /* Adjusted width to accommodate larger images */
+    height: 320px; /* Adjusted height to accommodate larger images */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .domain-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .domain-card img {
+    width: 290px; /* Increased width */
+    height: 220px; /* Increased height */
+    margin-bottom: 10px;
+  }
+  
+  .domain-card p {
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    margin: 0;
+  }
+  
