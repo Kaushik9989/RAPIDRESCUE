@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rapid Rescue</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #cbe0ed; /* Matches the blue background */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #cbe0ed;
+    }
+
+    header img {
+      width: 30px;
+      height: auto;
+    }
+
+    header nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .container {
+      text-align: center;
+      margin: 50px auto;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .back-button {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .back-button a {
+      text-decoration: none;
+      font-size: 16px;
+      color: black;
+      padding: 10px 20px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    label {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: none;
+      height: 100px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #598edb;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3f78c6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <span style="font-weight: bold; font-size: 18px;">RAPID RESCUE</span>
+    </div>
+    <nav>
+      <a href="#">ABOUT</a>
+      <a href="#">SERVICES</a>
+      <a href="#">CONTACT</a>
+      <a href="#">NEWS</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="back-button">
+      <a href="#">&larr; BACK</a>
+    </div>
+    <h1>Need Assistance?</h1>
+    <form>
+      <label for="problem">Problem:</label>
+      <input type="text" id="problem" name="problem" placeholder="Enter your description">
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" placeholder="Describe the issue"></textarea>
+
+      <button type="submit">Help</button>
+    </form>
+  </div>
+</body>
+</html>
